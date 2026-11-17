@@ -25,3 +25,8 @@ def hausdorff(a, b):
     """双向偏差"""
     raise NotImplementedError("hausdorff 尚未实现")
 
+
+def load_mesh(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("load_mesh 尚未实现")
+
