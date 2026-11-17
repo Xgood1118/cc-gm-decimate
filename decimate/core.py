@@ -11,11 +11,6 @@ class Mesh:
     faces: list
 
 
-def Mesh:
-    """class"""
-    raise NotImplementedError("Mesh 尚未实现")
-
-
 def quadric(mesh, vertex):
     """算顶点二次误差"""
     raise NotImplementedError("quadric 尚未实现")
@@ -29,9 +24,4 @@ def simplify(mesh, target_faces, tolerance):
 def hausdorff(a, b):
     """双向偏差"""
     raise NotImplementedError("hausdorff 尚未实现")
-
-
-def load_mesh(path):
-    """读入与落盘辅助"""
-    raise NotImplementedError("load_mesh 尚未实现")
 
