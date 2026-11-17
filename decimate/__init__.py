@@ -1,1 +1,1 @@
-"""网格简化与误差控制"""
+from .core import *  # noqa: F401,F403
