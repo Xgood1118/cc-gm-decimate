@@ -11,6 +11,8 @@ class Mesh:
     faces: list
 
 
+
+
 def quadric(mesh, vertex):
     """算顶点二次误差"""
     raise NotImplementedError("quadric 尚未实现")
